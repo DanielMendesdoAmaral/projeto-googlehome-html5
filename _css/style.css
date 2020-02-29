@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu img {
+    width: auto;
+    height: 15px;
+}
+
+ul#menu {
+    list-style: none;
+    display: flex;
+    float: right;
+    align-items: center;
+    padding: 13px;
+}
+
+ul#menu a.normal {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: #323232;
+}
+
+ul#menu a.normal:hover {
+    color: #676767;
+    text-decoration: underline;
+}
+
+ul#menu li {
+    padding-left: 10px;
+    
+}
+
+span.profile, a.span {
+    color: white;
+    font-size: 17.4px;
+    text-shadow: 0px 0.45px white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.circle-blue {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: table; /* A div circle vai ser semelhante à uma tabela, e quando aplicados display:table-cell à seus filhos, eles se tornam suas células. Com isso, você pode dar um vertical-align:middle para alinhar objetos e textos ao centro (verticalmente). */
+    background-color: #5C6BC0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+div.table-element {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.circle-gray {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    display: table;
+    background-color: white;
+}
+
+div.circle-gray:hover {
+    background-color: #ededed;
+}
+
+div.circle-gray img {
+    position: relative;
+    top: 3px;
+}
+
+div.circle-shadow {
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    border-radius: 100%;
+    display: table;
+}
+
+div.circle-shadow:hover {
+    background-color: #ededed;
+}
+
+
