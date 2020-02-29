@@ -87,8 +87,8 @@ div.circle-shadow:hover {
     background-color: #ededed;
 }
 
-div#container-logo {
-    height: 92px;
+section#container-logo {
+    height: 300px;
     width: 272px;
     margin: auto;
 }
@@ -96,5 +96,38 @@ div#container-logo {
 div#imagem img {
     margin-top: 164px;
 }
+
+section#container-search-bar {
+    width: 561px;
+    height: 44px;
+    margin: auto;
+}
+
+section#container-search-bar input {
+    padding: 13px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    position: relative;
+    right: 10px;
+}
+
+section#container-search-bar img.search {
+    width: 19px;
+    position: absolute;
+    top: 312px;
+    left: 415px;
+}
+
+section#container-search-bar img.mic {
+    float: right;
+    position: absolute;
+    width: 22px;
+    top: 311px;
+    right: 415px;
+}
+
 
 
