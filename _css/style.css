@@ -129,5 +129,50 @@ section#container-search-bar img.mic {
     right: 415px;
 }
 
+article#add-shortcut {
+    margin-top: -25px;
+    padding: 40px;
+}
+
+div#circle-gray-shortcut {
+    width: 50px;
+    height: 50px;
+    background-color: #dfdfdf;
+    border-radius: 100%;
+    margin: auto;
+    display: table;
+}
+
+div#table-element-shortcut {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+section#shortcut {
+    width: 112px;
+    height: 90px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    display: table;
+}
+
+section#shortcut:hover {
+    background-color: #efefef;
+}
+
+section#shortcut p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    position: relative;
+    bottom: 25px;
+    left: 30px;
+}
+
+
+
 
 
