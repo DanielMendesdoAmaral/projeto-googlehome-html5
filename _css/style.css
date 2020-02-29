@@ -87,4 +87,14 @@ div.circle-shadow:hover {
     background-color: #ededed;
 }
 
+div#container-logo {
+    height: 92px;
+    width: 272px;
+    margin: auto;
+}
+
+div#imagem img {
+    margin-top: 164px;
+}
+
 
