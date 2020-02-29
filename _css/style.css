@@ -101,6 +101,8 @@ section#container-search-bar {
     width: 561px;
     height: 44px;
     margin: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
 }
 
 section#container-search-bar input {
@@ -108,10 +110,8 @@ section#container-search-bar input {
     border: none;
     font-size: 16px;
     letter-spacing: 0.5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
     position: relative;
-    right: 10px;
+    right: -51px;
 }
 
 section#container-search-bar img.search {
@@ -172,6 +172,34 @@ section#shortcut p {
     left: 30px;
 }
 
+section#pencil {
+    width: 122px;
+    height: 32px;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+section#pencil img {
+    width: 13px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+section#pencil p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    position: relative;
+    right: -35px;
+    bottom: 18px;
+    color: #4285F4;
+}
+
+section#pencil:hover {
+    background-color: rgba(66, 133, 244, 0.1);
+}
 
 
 
